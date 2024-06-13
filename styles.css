@@ -219,8 +219,9 @@ img {
     /* header */
     .logo {
         width:45vmax;
+        left: 6%;
         
-        left: 8vmax;
+        
     }
     #parrafo {
         position: relative;
@@ -240,7 +241,8 @@ img {
     /* header */
     .logo {
         width:43vmax;
-        left: 13%;    
+        left: 13%;   
+        
     
     }
     #parrafo {
