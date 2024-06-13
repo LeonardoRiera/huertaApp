@@ -219,7 +219,8 @@ img {
     /* header */
     .logo {
         width:45vmax;
-        left: 6%;
+        left: 5%;
+        top: -12%
         
         
     }
@@ -231,6 +232,7 @@ img {
         text-align: center;
         margin: 8px;
         font-size: 10vh;
+        margin-bottom: 45px;
        
     }
     
