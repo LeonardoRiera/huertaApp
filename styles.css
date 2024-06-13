@@ -218,7 +218,7 @@ img {
     
     /* header */
     .logo {
-        width:50vmax;
+        width:45vmax;
         
         left: 8vmax;
     }
@@ -228,8 +228,8 @@ img {
         
         text-shadow: 5px 5px 5px black;
         text-align: center;
-        margin: 10px;
-        font-size: 11vh;
+        margin: 11px;
+        font-size: 10vh;
        
     }
     
