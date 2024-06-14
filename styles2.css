@@ -222,7 +222,7 @@ header {
     
     /* header */
     .logo {
-        width:45vmax;
+        width:42vmax;
        
         
         
@@ -234,7 +234,7 @@ header {
         text-shadow: 5px 5px 5px black;
        
         margin: 0 38px;
-        font-size: 12vh;
+        font-size: 10vh;
       
         text-align: center;
        
@@ -256,7 +256,7 @@ header {
    
     /* header */
     .logo {
-        width:43vmax;
+        width:40vmax;
           
         
     
@@ -265,7 +265,7 @@ header {
         
         text-align: center;
         
-        font-size: 12vh;
+        font-size: 10vh;
         text-shadow: 5px 5px 5px black;
        
     }
@@ -277,7 +277,7 @@ header {
     #nube2 {
         max-width: 40vmax;
         left: 30%;
-        transform: translateX(-25%); 
+        transform: translateX(15%); 
     }
     
 
@@ -290,7 +290,7 @@ header {
    
     /* header */
     .logo {
-        width:40vmax;
+        width:35vmax;
         top: 15%
        
     
@@ -303,6 +303,12 @@ header {
         font-size: 10vh;
         text-shadow: 5px 5px 7px black;
        
+    }
+
+    #nube2 {
+        max-width: 40vmax;
+        left: 30%;
+        transform: translateX(30%); 
     }
 
 
