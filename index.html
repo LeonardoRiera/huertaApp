@@ -1,112 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+    <head>
 
-    <!-- meta -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- title -->
-    <title> app Huerta</title>
+        <!-- title -->
+        <title> app Huerta</title>
 
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Jolly+Lodger&family=Spicy+Rice&display=swap" rel="stylesheet">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Jolly+Lodger&family=Spicy+Rice&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Jersey+10&display=swap" rel="stylesheet">
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles2.css">
+        <!-- bootstrap icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-</head>
+        <!-- css -->
+        <link rel="stylesheet" href="styles2.css">
 
-<body>
-    <header class="banner">
+    </head>
 
-     <!-- banner -->
+    <body>
+        <header class="banner">
+
+            <!-- banner -->
+            <img src="./img/fondo.png" alt="fondo campo" id="bg" class="fotoFondo">
+            <h1 id="parrafo">La Huerta de los Rastas</h1>
+            <img src="./img/loguito.png" alt="logo tomatito" class="logo" id="logo">
+            
+            <div class="nube-container">
+                <img src="./img/clouds_1.png" alt="nube" id="nube1">
+                <img class="forma" src="./img/clouds_2.png" alt="nube" id="nube2">
+                
+            </div>
+
+            
+        </header>  
+        
+        <section class="segundaSeccion">
+            
+            <img class="ola" src="img/wave.svg" alt="ola">
+            <h2 class="tituloPrincipal">- Desafío de la Huerta -</h2>
+            <section class="bigContenedor">
+
+                <img class="locoli" src="img/logo2.png" alt="logo tomatito">
+                <!-- <h3 class="textLogos">Compartinos <br> tu Experiencia!</h3> -->
+                <a href="https://www.instagram.com/lahuertadelosrastas/?hl=es" target="_blank" class="logoInsta"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com/p/lahuertadelosrastas-100030964856872/" target="_blank" class="logoFace"><i class="bi bi-facebook logoFace"></i></a>
+                
+        
+                <div class="quiz-container" id="quiz-container">
+        
+                    <span class="preguntas">Preguntas</span>
+                   
+        
+                    <div id="question-container" class="elementosContenedor">
+                        <div class="contenedorPregunta">
+                            
+                            <h2 id="question"></h2>
+        
+                        </div>
+        
+                        <div id="answer-buttons" class="btn-container contenedorBotones">
+        
+                            <button class="btn" onclick="selectAnswer(event)"></button>
+                            <button class="btn" onclick="selectAnswer(event)"></button>
+                            <button class="btn" onclick="selectAnswer(event)"></button>
+        
+                        </div>
+        
+                    </div>
+        
+        
+                    <div class="contenedorScore">
+                        <div id="result" class="result"></div>
+        
+        
+                        <div id="score-container">
+        
+                            <h3>Puntaje: <span id="score">0</span></h3>
+        
+                        </div> 
+        
+                    </div>
+        
+                    <div id="reiniciar"></div>
+        
+                </div>
+        
+                <!-- JS -->
+                <!--  <script src="app/preguntas.js"></script>
+                <script src="app/app2.js"></script> -->
+        
+            </section>
+            
+        
+        </section>
+
         
 
-        <img src="./img/fondo.png" alt="fondo campo" id="bg" class="fotoFondo">
-        <h2 id="parrafo">La Huerta de los Rastas</h2>
-        <img src="./img/loguito.png" alt="logo tomatito" class="logo" id="logo">
-        <div class="nube-container">
-            <img src="./img/clouds_1.png" alt="nube" id="nube1">
-            <img src="./img/clouds_2.png" alt="nube" id="nube2">
-        </div>
 
-    </header>  
-
-    <!-- <div class="sec">
-        <div class="content">
-            <h2 class="tituloRelleno">
-                "!!BIENVENIDO AL DESAFÍO DE LA HUERTA!!"
-            </h2>
-            <p class="parrafoRelleno">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti accusamus magni deserunt quia
-                adipisci nam voluptatum ex in ullam minus asperiores explicabo quam sit, eius est, ducimus veniam
-                cumque. <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti accusamus magni deserunt quia
-                adipisci nam voluptatum ex in ullam minus asperiores explicabo quam sit, eius est, ducimus veniam
-                cumque.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti accusamus magni deserunt quia
-                adipisci nam voluptatum ex in ullam minus asperiores explicabo quam sit, eius est, ducimus veniam
-                cumque.<br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti accusamus magni deserunt quia
-                adipisci nam voluptatum ex in ullam minus asperiores explicabo quam sit, eius est, ducimus veniam
-                cumque.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti accusamus magni deserunt quia
-                adipisci nam voluptatum ex in ullam minus asperiores explicabo quam sit, eius est, ducimus veniam
-                cumque.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti accusamus magni deserunt quia
-                adipisci nam voluptatum ex in ullam minus asperiores explicabo quam sit, eius est, ducimus veniam
-                cumque.<br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti accusamus magni deserunt quia
-                adipisci nam voluptatum ex in ullam minus asperiores explicabo quam sit, eius est, ducimus veniam
-                cumque.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti accusamus magni deserunt quia
-                adipisci nam voluptatum ex in ullam minus asperiores explicabo quam sit, eius est, ducimus veniam
-                cumque.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti accusamus magni deserunt quia
-                adipisci nam voluptatum ex in ullam minus asperiores explicabo quam sit, eius est, ducimus veniam
-                cumque.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti accusamus magni deserunt quia
-                adipisci nam voluptatum ex in ullam minus asperiores explicabo quam sit, eius est, ducimus veniam
-                cumque.<br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti accusamus magni deserunt quia
-                adipisci nam voluptatum ex in ullam minus asperiores explicabo quam sit, eius est, ducimus veniam
-                cumque.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti accusamus magni deserunt quia
-                adipisci nam voluptatum ex in ullam minus asperiores explicabo quam sit, eius est, ducimus veniam
-                cumque.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti accusamus magni deserunt quia
-                adipisci nam voluptatum ex in ullam minus asperiores explicabo quam sit, eius est, ducimus veniam
-                cumque.<br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti accusamus magni deserunt quia
-                adipisci nam voluptatum ex in ullam minus asperiores explicabo quam sit, eius est, ducimus veniam
-                cumque.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti accusamus magni deserunt quia
-                adipisci nam voluptatum ex in ullam minus asperiores explicabo quam sit, eius est, ducimus veniam
-                cumque.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti accusamus magni deserunt quia
-                adipisci nam voluptatum ex in ullam minus asperiores explicabo quam sit, eius est, ducimus veniam
-                cumque.
-            </p>
-        </div>
-    </div> -->    
-
-
-    
+        
 
 
 
 
 
-    <!-- JS -->
-    <script src=" https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
-    <script src="app/app.js"></script>
+        <!-- JS -->
 
-</body>
+        <script src=" https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+        <script src="app/preguntas.js"></script>
+        <script src="app/app.js"></script>
+
+    </body>
 
 
 </html>
