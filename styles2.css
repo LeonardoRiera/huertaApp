@@ -881,7 +881,26 @@ header {
 
 }
 
+/* ++++++++++++++++++++++++ media query  | personalizado |   ++++++++++++++++++++++++++++++++++*/
 
+@media screen and (max-width:431px) {
+      /* redes */
+    .div-logos {
+        top: 85%;
+        
+    }
+
+    .nube-container { 
+        top: -8%;
+       
+    }
+
+    #nube1 {
+        width: 70vmax;
+        left: -20%;
+        
+    }
+}
 
 /* ++++++++++++++++++++++++ media query  | pantalla xsm |   ++++++++++++++++++++++++++++++++++*/
 
