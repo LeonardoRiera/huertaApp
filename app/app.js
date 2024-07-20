@@ -1,3 +1,5 @@
+/* libreria de js para paralax */
+
 gsap.to('#bg', {
     scrollTrigger: {
         scrub:1
@@ -56,18 +58,13 @@ function startQuiz() {
 // Función para mostrar la pregunta actual y sus respuestas
 function showQuestion(question) {
     const questionElement = document.getElementById('question'); //cacha el dom de un h2
-    const answerButtons = document.querySelectorAll('.btn'); //cacha dom de los botones(c/boton esta onclick a una funcion en html)
+    const answerButtons = document.querySelectorAll('.btn'); //cacha dom de los botones(c/boton esta onclick a una funcion, en html)
     
-
    
 
-    // aquí crear la imagen y trabajamos estilos creandole  class="fotoPregunta"
-   
-    // Crear un nuevo elemento de imagen
-   // imageElement.src = question.image; // Asignar la ubicacion de la imagen
-    //imageElement.classList.add('fotoPregunta');
 
-     // Actualizamos el texto de la pregunta
+
+    // Actualizamos el texto de la pregunta
     //se agrega al h2 el valor de la propiedad question DE CADA PREGUNTA (event)
     questionElement.textContent = question.question;
 
@@ -135,8 +132,8 @@ function selectAnswer(event) {
         // Asegurarse de que el contenido del primer (y único) elemento con la clase 'preguntas' esté vacío
         const preguntasElement = document.getElementsByClassName('preguntas')[0];
         if (preguntasElement) {
-        preguntasElement.innerHTML = '';
-    }
+            preguntasElement.innerHTML = '';
+        }
         
     }
 }
