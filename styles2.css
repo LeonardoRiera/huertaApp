@@ -397,6 +397,11 @@ header {
        
     }
 
+    .div-logos {
+        top: 75%;
+        
+    }
+
     /* main */
 
     .segundaSeccion {
@@ -440,6 +445,11 @@ header {
 
 
 @media screen and (max-width:1200px) {
+
+    .div-logos {
+        top: 70%;
+        
+    }
 
     #nube2 {
         width: 50vmax;
@@ -501,20 +511,7 @@ header {
         
         
     }
-
-
-    .logoInsta {
-        
-        font-size: 3vmax;
-        top: 81%;
-        left:2%;
-    }
-    
-    .logoFace {
-       font-size: 3vmax;
-        top: 83%;
-        left:6%;
-    }    
+  
     
 }
 
@@ -527,6 +524,20 @@ header {
     
    
     /* header */
+    .div-logos {
+        top: 73%;
+        
+    }
+
+    .logoInsta {
+        font-size: 3vmax;   
+       
+    }
+    
+    .logoFace {
+        font-size: 3vmax;
+    }
+    
 
     .nube-container { 
         top: -15%;
@@ -561,18 +572,29 @@ header {
 
     /* header */
     .logo {
-        width:50vmax;
-        
-          
+        width:50vmax;   
+
     }
 
-    #parrafo {
-       
-        
+    #parrafo {   
+        top: 58%; 
         font-size: 12vh;
         text-shadow: 5px 5px 3px black;
+
+    }
+
+    .div-logos {
+        top: 78%;
         
+    }
+
+    .logoInsta {
+        font-size: 3.5vmax;   
        
+    }
+    
+    .logoFace {
+        font-size: 3.5vmax;
     }
 
 
@@ -682,19 +704,6 @@ header {
         
     }
 
-    .logoInsta {
-        font-size: 4vmax;
-        top:85%;
-        left:2%;
-    }
-    
-    .logoFace {
-        font-size: 4vmax;
-        top: 87%;
-        left: 8%;
-    }
-    
-
 }
 
 
@@ -706,27 +715,36 @@ header {
     
     /* header */
     .logo {
-        width:42vmax;
-       
-        
+        width:42vmax;    
         
     }
-    #parrafo {
-      
-        
-        top: 60%;
-        text-shadow: 5px 5px 5px black;
-       
+
+    #parrafo {    
+        top: 50%;
+        text-shadow: 5px 5px 5px black;    
         margin: 0 38px;
-        font-size: 10vh;
-      
+        font-size: 10vh;  
         text-align: center;
        
     }
 
-
-    .tituloPrincipal {
+    .div-logos {
+        top: 80%;
         
+    }
+
+    .logoInsta {
+        font-size: 3.7vmax;   
+       
+    }
+    
+    .logoFace {
+        font-size: 3.7vmax;
+    }
+
+
+
+    .tituloPrincipal {   
         font-size: 9vmax;
         text-shadow: 3.5px 3.5px 7px black;
           
@@ -861,28 +879,6 @@ header {
         
     }
 
-    .textLogos {
-        position: absolute;
-        font-size: 1.4vmax;
-        top: 84%;
-        left:7%;
-    
-    
-        
-    }
-
-    .logoInsta {
-        top:88%;
-        left:3%;
-    }
-
-    .logoFace {
-        top: 90%;
-        left:10%;
-    }
-
-
-    
 }
 
 
@@ -891,6 +887,37 @@ header {
 
 @media screen and (max-width:425px) {
 
+    /* header */
+    .logo {
+        width:42vmax;    
+        top: 12%;
+    }
+
+    .nube-container { 
+        top: -12%;
+       
+    }
+
+    #nube1 {
+        width: 70vmax;
+        left: -20%;
+        
+    }
+
+    /* redes */
+    .div-logos {
+        top: 84%;
+        
+    }
+
+    .logoInsta {
+        font-size: 3.7vmax;   
+       
+    }
+    
+    .logoFace {
+        font-size: 3.7vmax;
+    }
 
     .tituloPrincipal {
         
@@ -947,16 +974,6 @@ header {
         
     }
 
-    .logoInsta {
-        top: 87%;
-        left:4%;
-    }
-
-    .logoFace {
-        top: 88%;
-        left:14%;
-    }
-
     .contenedorScore {
         height: 11vmax;
         width: 27vmax;
@@ -999,14 +1016,15 @@ header {
     
     #nube1 {
         position: absolute;
-        width: 60vmax;
+        width: 65vmax;
+        left: -40%;
        
         
     }
     
     #nube2 {
         position: absolute;
-        width: 40vmax;
+        width: 50vmax;
         left: 40%;
         transform: translateX(-15%);
     }
@@ -1043,20 +1061,6 @@ header {
         left:79%;    
     }
 
-
-    .logoFace {
-        top:90%;
-        left:54%;
-   }
-
-
-    .logoInsta {
-        top:90%;
-        left:40%;
-    }
-
-
-    
 
 }
 
@@ -1121,17 +1125,6 @@ header {
         width: 7.2vmax;
         top: 193%;
         left:79%;
-    }
-
-   .logoFace {
-        top:90%;
-        left:54%;
-   }
-
-
-    .logoInsta {
-        top:90%;
-        left:40%;
     }
 
     .btn2 {
