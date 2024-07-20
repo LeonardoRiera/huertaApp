@@ -730,7 +730,7 @@ header {
     }
 
     #parrafo {    
-        top: 50%;
+        top: 53%;
         text-shadow: 5px 5px 5px black;    
         margin: 0 38px;
         font-size: 10vh;  
@@ -998,10 +998,8 @@ header {
         
     
     }
-    #parrafo {
-        
-        text-align: center;
-        
+    #parrafo {    
+        text-align: center;   
         font-size: 10vh;
         text-shadow: 5px 5px 5px black;
        
@@ -1071,10 +1069,7 @@ header {
     
     }
 
-    #parrafo {
-        
-       
-       
+    #parrafo {   
         font-size: 10vh;
         text-shadow: 5px 5px 7px black;
        
