@@ -594,17 +594,17 @@ header {
     }
 
     .div-logos {
-        top: 78%;
+        top: 3%;
         
     }
 
     .logoInsta {
-        font-size: 3.5vmax;   
+        font-size: 3.7vmax;   
        
     }
     
     .logoFace {
-        font-size: 3.5vmax;
+        font-size: 3.7vmax;
     }
 
 
@@ -737,21 +737,6 @@ header {
         text-align: center;
        
     }
-
-    .div-logos {
-        top: 80%;
-        
-    }
-
-    .logoInsta {
-        font-size: 3.7vmax;   
-       
-    }
-    
-    .logoFace {
-        font-size: 3.7vmax;
-    }
-
 
 
     .tituloPrincipal {   
@@ -894,12 +879,7 @@ header {
 /* ++++++++++++++++++++++++ media query  | personalizado |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:431px) {
-      /* redes */
-    .div-logos {
-        top: 85%;
-        
-    }
-
+    
     .nube-container { 
         top: -8%;
        
@@ -931,21 +911,6 @@ header {
         width: 70vmax;
         left: -20%;
         
-    }
-
-    /* redes */
-    .div-logos {
-        top: 84%;
-        
-    }
-
-    .logoInsta {
-        font-size: 3.7vmax;   
-       
-    }
-    
-    .logoFace {
-        font-size: 3.7vmax;
     }
 
     .tituloPrincipal {
