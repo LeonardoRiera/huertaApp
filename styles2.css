@@ -564,6 +564,16 @@ header {
 
 
 }
+
+/* ++++++++++++++++++++++++ media query  | personalizado |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:854px) {
+    /* redes */
+  .div-logos {
+      top: 80%;
+      
+  }
+}
 /* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
 
 
