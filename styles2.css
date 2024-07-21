@@ -368,7 +368,7 @@ header {
     }
 
     .div-logos {
-        top: 75%;
+        top: 70%;
         
     }
 
@@ -383,7 +383,7 @@ header {
 @media screen and (max-width:1200px) {
 
     .div-logos {
-        top: 70%;
+        top: 3%;
         
     }
 
@@ -402,10 +402,15 @@ header {
 
 @media screen and (max-width:992px) {
     
+    #parrafo {
+        font-size: 13vmax;
+        text-align: center;
+       top: 60%;
+      }
    
     /* header */
     .div-logos {
-        top: 73%;
+        top: 3%;
         
     }
 
@@ -448,15 +453,13 @@ header {
 /* ++++++++++++++++++++++++ media query  | personalizado |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:854px) {
-    /* redes */
-  .div-logos {
-      top: 80%;
-      
-  }
-
   #parrafo {
    text-align: center;
    top: 50%;
+  }
+
+  .tituloPrincipal {
+    font-size: 7vmax;
   }
 }
 /* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
@@ -490,17 +493,6 @@ header {
     
     .logoFace {
         font-size: 3.7vmax;
-    }
-
-
-    /* bloque juego */
-
-     /* main */
-
-    .segundaSeccion {
-    
-        
-        
     }
 
 
@@ -568,7 +560,7 @@ header {
     .tituloPrincipal {
         color: white;
         text-align: center;
-        font-size: 6vmax;
+        font-size: 5vmax;
         text-shadow: 5px 5px 8px black;
         margin-top: -4%;
         z-index: 10;
@@ -644,8 +636,6 @@ header {
     }
 
     .tituloPrincipal {
-        
-        font-size:6.8vmax;
         text-shadow: 3.5px 3.5px 4px black;
         
 
