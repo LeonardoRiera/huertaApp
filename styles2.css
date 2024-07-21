@@ -46,7 +46,7 @@ header {
 #parrafo {
     position: absolute;
     color: white;
-    font-size: 14vh;
+    font-size: 12vh;
     top: 70%;
     text-shadow: 5px 5px 8px black;
     align-self: center;
@@ -104,7 +104,7 @@ header {
 .tituloPrincipal {
     color: white;
     text-align: center;
-    font-size: 10vmax;
+    font-size: 9vmax;
     text-shadow: 5px 5px 8px black;
     margin-top: -6%;
     z-index: 10;
@@ -372,15 +372,6 @@ header {
         
     }
 
-    /* main */
-
-    .segundaSeccion {
-    
-        
-        
-    }
-   
-
     
 }
 
@@ -401,17 +392,6 @@ header {
         left: 58%;
         transform: translateX(-20%);
     }
-
-    /*  contenido juego */
-
-
-    .segundaSeccion {
-    
-        
-        
-    }
-
-  
     
 }
 
@@ -462,12 +442,6 @@ header {
        
     }
 
-    .segundaSeccion {
-    
-       
-        
-    }
-
 
 }
 
@@ -478,6 +452,11 @@ header {
   .div-logos {
       top: 80%;
       
+  }
+
+  #parrafo {
+   text-align: center;
+   top: 50%;
   }
 }
 /* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
@@ -494,7 +473,7 @@ header {
 
     #parrafo {   
         top: 58%; 
-        font-size: 12vh;
+        font-size: 11vh;
         text-shadow: 5px 5px 3px black;
 
     }
@@ -543,19 +522,13 @@ header {
     #parrafo {    
         top: 53%;
         text-shadow: 5px 5px 5px black;    
-        margin: 0 38px;
-        font-size: 12vh;  
+        margin: 0 38px; 
         text-align: center;
        
     }
 
 
-    .segundaSeccion {
-       
-        
-    }
-
-
+    
   
 
 }
@@ -592,13 +565,16 @@ header {
         
     }
 
-    
-    .segundaSeccion {
-    
-        
+    .tituloPrincipal {
+        color: white;
+        text-align: center;
+        font-size: 6vmax;
+        text-shadow: 5px 5px 8px black;
+        margin-top: -4%;
+        z-index: 10;
+        margin-bottom: 5px;
+            
     }
-
-   
 
 }
 
@@ -642,9 +618,13 @@ header {
     }
     #parrafo {    
         text-align: center;   
-        font-size: 10vh;
+        font-size: 9vh;
         text-shadow: 5px 5px 5px black;
        
+    }
+
+    .nube-container {
+        top: -20%;
     }
 
     
@@ -672,11 +652,7 @@ header {
           
     }
 
-    .segundaSeccion {
-    
-        
-        
-    }
+   
 }
 
 
@@ -703,6 +679,9 @@ header {
        
     }
 
+    .nube-container {
+        top: -30%;
+    }
 
 
 
