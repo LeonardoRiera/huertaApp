@@ -531,16 +531,15 @@ header {
 
 @media screen and (max-width:500px) {
     .tituloPrincipal {    
-        font-size: 6.8vmax;
+        font-size: 5.5vmax;
           
     }
 
-    .segundaSeccion {
-    
-       
+    /* header */
+    .logo {
+        width:40vmax;    
         
     }
-
 
 }
 
