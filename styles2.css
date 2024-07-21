@@ -449,6 +449,7 @@ header {
 
     .tituloPrincipal {
         font-size: 7vmax;
+        margin-bottom: 10px;
     }
 
 
@@ -497,6 +498,12 @@ header {
         font-size: 3.7vmax;
     }
 
+    .tituloPrincipal {    
+        margin-top: -3%;
+          
+    }
+
+
 
 }
 
@@ -532,6 +539,7 @@ header {
 @media screen and (max-width:500px) {
     .tituloPrincipal {    
         font-size: 5.5vmax;
+        margin-top: -3%;
           
     }
 
@@ -539,6 +547,10 @@ header {
     .logo {
         width:40vmax;    
         
+    }
+
+    #nube1 {
+        left: -6%;
     }
 
 }
