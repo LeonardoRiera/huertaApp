@@ -447,6 +447,10 @@ header {
        
     }
 
+    .tituloPrincipal {
+        font-size: 7vmax;
+    }
+
 
 }
 
@@ -458,9 +462,7 @@ header {
    top: 50%;
   }
 
-  .tituloPrincipal {
-    font-size: 7vmax;
-  }
+ 
 }
 /* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
 
@@ -529,7 +531,7 @@ header {
 
 @media screen and (max-width:500px) {
     .tituloPrincipal {    
-        font-size: 7.2vmax;
+        font-size: 6.8vmax;
           
     }
 
@@ -636,6 +638,7 @@ header {
     }
 
     .tituloPrincipal {
+        font-size: 4vmax;
         text-shadow: 3.5px 3.5px 4px black;
         
 
