@@ -85,12 +85,13 @@ header {
 /* contenido posterior al header */
 
 .segundaSeccion {
-    
-    height: 800px;
     background: linear-gradient(to top, #ff0000 , #F98824 70%); 
     display: flex;
     flex-direction: column;
     justify-content: start;
+    align-items: center;
+    text-align: center;
+    
 }
 
 .ola {
@@ -103,59 +104,68 @@ header {
 .tituloPrincipal {
     color: white;
     text-align: center;
-    font-size: 12vmax;
-    position: relative;
-    z-index: 3;
-    top: -2%;
+    font-size: 10vmax;
     text-shadow: 5px 5px 8px black;
+    margin-top: -6%;
+    z-index: 10;
         
 }
 
+/* logo y redes sociales */
+.locoli {
+    position: absolute;
+    width: 8vmax;
+    top: 204%;
+    left:84%;
+        
+}
 
+.div-logos {
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: start;
+   position: absolute; 
+   top: 80%;
+   margin-left: 2%;
+   
+}
 
+.logoInsta {
+    font-size: 2.8vmax;
+    z-index: 10;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 25%;
 
+}
 
+.logoFace {
+    font-size: 2.8vmax;
+    color: rgba(255, 255, 255, 0.849);
+    z-index: 10;
+}
 
 
 /* ********** contenido juego ************* */
 
-.bigContenedor {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    height: 100vh;
-    width: 100%;
-   /*  background: linear-gradient(to top, #ff0000 , #F98824 70%);  */
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-    
-}
-
 /* contiene todo dentro del body */
 .quiz-container {
-    /* border: 2px solid rgba(255, 255, 255, 0.592); */
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.96);
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 580px;
-    width: 90vmax;
+    justify-content: space-between;
+    height: 520px;
+    width: 92%;
     box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.575);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-image: url(img/reyeno.svg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
-
-   
+    background-size: cover;   
+    margin-top: -1%;
     
 }
-
-
 
 /* texto que indica preguntas */
 .preguntas {
@@ -167,53 +177,13 @@ header {
 
 }
 
-
-/* logo y redes sociales */
-.locoli {
-    position: absolute;
-    width: 8vmax;
-    top: 204%;
-    left:84%;
-    
-    
-}
-
-
-.div-logos {
-   display: flex;
-   flex-flow: column wrap;
-   justify-content: start;
-   position: absolute; 
-   top: 80%;
-   margin-left: 2%;
-   
-   
-}
-
-.logoInsta {
-    font-size: 2.8vmax;
-    z-index: 10;
-    color: rgba(255, 255, 255, 0.9);
-    margin-bottom: 25%;
-
-   
-}
-
-.logoFace {
-    font-size: 2.8vmax;
-    color: rgba(255, 255, 255, 0.849);
-    z-index: 10;
-}
-
-
-
-
 /* grupo de preguntas y botones */
 .elementosContenedor {
     margin-top:8px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
    
 }
 
@@ -222,7 +192,7 @@ header {
 .contenedorPregunta {
     
     background-color: rgb(255, 255, 255);
-    width: 60vmax;
+    width: 60%;
     border-radius: 20px;
     padding:18px 10px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.749);
@@ -406,35 +376,10 @@ header {
 
     .segundaSeccion {
     
-        height: 752px;
-        
-    }
-    .tituloPrincipal {
-        
-        font-size: 10vmax;
-        top: 13%;    
-    }
-
-    /* bloque juego */
-
-    /* contiene todo dentro del body */
-    .quiz-container {
-            
-        height: 470px;
-          
-    }
-
-
-    /* logo pequeño */
-    .locoli {
-        
-        width: 8vmax;
-        top: 198%;
-        left:84%;
         
         
     }
-
+   
 
     
 }
@@ -460,57 +405,12 @@ header {
     /*  contenido juego */
 
 
-  
-
-    /* contiene todo dentro del body */
-    .quiz-container {
-            
-        height: 480px;
-        width: 90vmax;
-        justify-content: center;
-        margin-bottom: 20px;    
-    }
-
-
-    /* texto que indica preguntas */
-    .preguntas {
-        
-        font-size: 8vmax;
-    }
-
-    /* contenedor de los botones */
-    .btn-container {
-        
-        justify-content: space-between;
-        margin-top: 20px;
-        padding: 0 10px;
-        width: 62vmax;
-        height:9vmax;
-    }
-
-    .btn {
-        position: relative;
-        width:18vmax;
-        height: 7vmax;
-        font-size: 1.6vmax;  
-    }
+    .segundaSeccion {
     
-    .contenedorScore {
-        height: 7vmax;
         
-       
+        
     }
 
-    
-    /* logo pequeño */
-    .locoli {
-        position: absolute;
-        width: 8vmax;
-        top: 198%;
-        left:84%;
-        
-        
-    }
   
     
 }
@@ -560,6 +460,12 @@ header {
         width:40vmax;
     
        
+    }
+
+    .segundaSeccion {
+    
+       
+        
     }
 
 
@@ -614,105 +520,10 @@ header {
 
     .segundaSeccion {
     
-        height: 700px;
-        
-    }
-
-
-    .tituloPrincipal {
-        
-        font-size: 12vmax;
-        top: 10%;  
-        text-shadow: 3.5px 3.5px 5px black;  
-    }
-
-
-    /* contenido juego */
-
-    /* contiene todo dentro del body */
-    .quiz-container {
-        
-        height: 490px;
-        justify-content: space-between;
-        margin-bottom: 20px;    
-    }
-
-    /* texto que indica preguntas */
-    .preguntas {
-        
-        font-size: 8vmax;
-        margin-top: 10px;
-        
-
-    }
-
-      /* contenedor de los botones */
-      .btn-container {
-        
-        justify-content: space-between;
-        margin-top: 20px;
-        padding: 0 10px;
-        width: 80vmax;
-        height:9vmax;
-    }
-
-    .btn {
-        position: relative;
-        width:18vmax;
-        height: 10vmax;
-        font-size: 2vmax;
-        top: 25%  
-    }
-
-    .btn2 {
-        position: relative;
-        width:18vmax;
-        height: 10vmax;
-        font-size: 2vmax;
-        top: -32%; 
-        background: linear-gradient(to top, rgb(239, 90, 205), rgba(17, 237, 229, 0.877));
-        border: 5px solid rgba(0, 0, 0, 0.212);
-        color: rgb(0, 0, 0);
-        margin: 5px 10px;
-        cursor: pointer;
-        border-radius: 5px;
-        font-family: "Bangers", system-ui;
-        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.399) 
-    }
-
-
-    .contenedorScore {
-        height: 12vmax;
-        width: 32vmax;
-        
-       
-    }
-
-    .result {
-       
-        font-size: 3vmax;
-       
-    }
-
-    /* logo y redes sociales */
-    .locoli {
-        position: absolute;
-        width: 10vmax;
-        top: 192%;
-        left:81%;
         
         
     }
 
-    .textLogos {
-        position: absolute;
-        font-size: 1vmax;
-        top: 84%;
-        left:7%;
-       
-       
-        
-    }
 
 }
 
@@ -733,146 +544,36 @@ header {
         top: 53%;
         text-shadow: 5px 5px 5px black;    
         margin: 0 38px;
-        font-size: 10vh;  
+        font-size: 12vh;  
         text-align: center;
        
     }
 
 
-    .tituloPrincipal {   
-        font-size: 9vmax;
-        text-shadow: 3.5px 3.5px 7px black;
+    .segundaSeccion {
+       
+        
+    }
+
+
+  
+
+}
+
+/* ++++++++++++++++++++++++ media query  | personalizado |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:500px) {
+    .tituloPrincipal {    
+        font-size: 7.2vmax;
           
     }
 
-
-    /* contenedor juego */
-
-
-    
     .segundaSeccion {
     
-        height: 680px;
-        
-    }
-
-    
-
-    /* contiene todo dentro del body */
-    .quiz-container {
-        width: 95%;    
-        height: 500px;
-        justify-content: space-between;
-        margin-bottom: 20px;    
-    }
-
-   
-
-    
-
-    .elementosContenedor {
-        margin-top:8px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 280px;
-    }
-
-
-
-    .contenedorPregunta {
-    
-       
-        width: 60vmax;
-        height: 10vmax;
-        border-radius:10px;
-        padding: 14px 4px;
-        
-        
-    }
-
-    
-    /* texto que indica preguntas */
-    .preguntas {
-        
-        font-size: 8vmax;
-        margin-top: 10px;
-        
-
-    }
-
-
-    /* contenedor de los botones */
-    .btn-container {
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 16px;
-        padding: 0 14px;
-        width: 50vmax;
-        height:40vmax;
-    }
-
-
-
-    .btn {
-        position: relative;
-        width:58vmax;
-        
-        font-size: 2.7vmax;
-        top: 2%;
-        margin-top: 8px; 
-
-    }
-
-    .btn2 {
-        position: relative;
-        width:48vmax;
-        height: 10vmax;
-        font-size: 2.7vmax;
-        top: -260%; 
-        background: linear-gradient(to top, rgb(239, 90, 205), rgba(17, 237, 229, 0.877));
-        border: 5px solid rgba(0, 0, 0, 0.212);
-        color: rgb(0, 0, 0);
-        margin: 5px 10px;
-        cursor: pointer;
-        border-radius: 5px;
-        font-family: "Bangers", system-ui;
-        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.399); 
-    }
-
-
-
-
-
-    .contenedorScore {
-        height: 10vmax;
-        width: 29vmax;
-        margin-top: 30px;
-        
-    
-    }
-
-    
-
-    .result {
-    
-        font-size: 3vmax;
-        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.399) 
-    }
-
-    
-   
-
-    /* logo y redes sociales */
-    .locoli {
-        position: absolute;
-        left:81%;
-        width: 10vmax;
-        top: 190%;
        
         
-        
     }
+
 
 }
 
@@ -890,6 +591,15 @@ header {
         left: -20%;
         
     }
+
+    
+    .segundaSeccion {
+    
+        
+    }
+
+   
+
 }
 
 /* ++++++++++++++++++++++++ media query  | pantalla xsm |   ++++++++++++++++++++++++++++++++++*/
@@ -912,75 +622,7 @@ header {
         left: -20%;
         
     }
-
-    .tituloPrincipal {
-        
-        font-size: 8vmax;
-        text-shadow: 3.5px 3.5px 7px black;
-          
-    }
-   
-    #question {
-       
-      
-        font-size: 2.5vmax;
-        letter-spacing: 3px; /* Cambia el espaciado entre letras */
-    }
-
-     /* contenedor de los botones */
-     .btn-container {
-        
-        justify-content: center;
-        margin-top: 16px;
-        padding: 0 14px;
-        width: 10vmax;
-        height:40vmax;
-    }
-
-    .btn {
-        position: relative;
-        width:40vmax;
-        
-        font-size: 2.7vmax;
-        top: 2%;
-        margin-top: 8px; 
-
-    }
-
-    
-    /* contenedor de la pregunta */
-    .contenedorPregunta {
-        width: 52vmax;
-        height: 10vmax;
-        border-radius: 10px;
-        padding: 12px 4px;
-       
-    
-    }
-
-     /* logo y redes sociales */
-     .locoli {
-       
-        width: 8vmax;
-        top: 193%;
-       
-        
-        
-    }
-
-    .contenedorScore {
-        height: 11vmax;
-        width: 27vmax;
-       
-        
-    
-    }
-
-    .contenedorScore h3, span {
-        
-        font-size: 2.5vmax;
-        margin-top: 2vmax;
-    }    
+  
 
 }
 
@@ -1023,38 +665,24 @@ header {
 
     .tituloPrincipal {
         
-        font-size:7.2vmax;
+        font-size:6.8vmax;
         text-shadow: 3.5px 3.5px 4px black;
         
 
           
     }
 
-    /* contenedor juego */
-
-     /* contenedor de la pregunta */
-     .contenedorPregunta {
-        width: 46vmax;
-        border-radius: 10px;
-        padding: 12px 4px;
-       
+    .segundaSeccion {
     
-    } 
-
-    .contenedorScore {
-        height: 12vmax;
-        width: 26vmax;
-    
+        
+        
     }
-
-
-     /* logo y redes sociales */
-     .locoli {   
-        left:79%;    
-    }
-
-
 }
+
+
+
+
+
 
 
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
@@ -1075,56 +703,6 @@ header {
        
     }
 
-
-    .tituloPrincipal {
-        
-        font-size:6.2vmax;
-        text-shadow: 3.5px 3.5px 4px black;
-        top: 8%
-        
-
-          
-    }
-
-
-
-    /* contenedor juego */
-
-     /* contiene todo dentro del body */
-     .quiz-container {
-            
-        height: 530px;
-           
-    }
-
-    
-
-    /* contenedor de la pregunta */
-    .contenedorPregunta {
-       width: 40vmax;
-       border-radius: 20px;
-       padding: 12px 4px;
-    } 
-
-  
-
-    /* logo y redes sociales */
-    .locoli {
-      
-        width: 7.2vmax;
-        top: 193%;
-        left:79%;
-    }
-
-    .btn2 {
-        
-        width:40vmax;
-       
-    }
-
-    .completado {
-        font-size: 4.2vmax;   
-    }
 
 
 
