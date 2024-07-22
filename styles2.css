@@ -154,11 +154,11 @@ header {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 520px;
+    justify-content: space-around;
+    height: 540px;
     width: 92%;
     box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.575);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background-image: url(img/reyeno.svg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -250,10 +250,10 @@ header {
 
 .btn2 {
     position: relative;
-    width:18vmax;
-    height: 8vmax;
-    font-size: 2vmax;
-    top: 16%; 
+    width:20vmax;
+    height: 7vmax;
+    font-size: 1.8vmax;
+    top: -20%; 
     background: linear-gradient(to top, rgb(239, 90, 205), rgba(17, 237, 229, 0.877));
     border: 5px solid rgba(0, 0, 0, 0.212);
     color: rgb(0, 0, 0);
@@ -286,12 +286,14 @@ header {
 .contenedorScore {
     background-color: rgba(0, 0, 0, 0.666);
     border-radius: 20px;
-    margin-top: 20px;
-    padding: 1px ;
+    padding: 5px ;
     color: white;
     box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.853);
     width:30vmax;
+    display: flex;
+    justify-content: center;
     align-self: center;
+    flex-direction: column;
     border: 1px solid rgba(255, 255, 255, 0.374);
     height: 6vmax;
     
@@ -305,7 +307,7 @@ header {
 }
 
 .result {
-    margin-top:10px;
+    
     font-family: "Jersey 10", sans-serif;
     letter-spacing: 4px; /* Cambia el espaciado entre letras */
     font-size: 1.8vmax;
@@ -371,6 +373,20 @@ header {
         top: 70%;
         
     }
+
+    .quiz-container {
+        height: 550px;
+        width: 92%;
+        box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.575);
+        margin-bottom: 20px;
+        background-image: url(img/reyeno.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;   
+        margin-top: -1%;
+        
+    }
+    
 
     /* contenedor de los botones */
     .btn-container {
@@ -498,14 +514,25 @@ header {
    top: 50%;
   }
 
-  /* contiene todo dentro del body */
+.tituloPrincipal {    
+    margin-top: -3%;
+      
+}
+
+.preguntas {
+    margin-top: 2%;
+}
+
+
+
+/* contiene todo dentro del body */
 .quiz-container {
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.96);
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
     height: 700px;
     width: 92%;
     box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.575);
@@ -519,7 +546,7 @@ header {
 }
 
 .elementosContenedor {
-    margin-top:8px;
+    margin-top:-8px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -529,7 +556,25 @@ header {
 }
 
 
-  /* contenedor de los botones */
+/* contenedor de la pregunta */
+.contenedorPregunta {
+    
+    background-color: rgb(255, 255, 255);
+    width: 78%;
+    border-radius: 20px;
+    padding:14px 16px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.749);
+    align-self: center;
+    
+}
+
+#question {
+    font-size: 2.7vmax;
+   
+}
+
+
+/* contenedor de los botones */
 .btn-container {
     display: flex;
     flex-direction: column;
@@ -555,13 +600,21 @@ header {
     border-radius: 5px;
     position: relative;
     width:35vmax;
-    height: 7vmax;
+    height: 6vmax;
     font-family: "Bangers", system-ui;
     font-size: 2.5vmax;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.399);
     
   
+
 }
+
+.completado {
+   
+    font-size: 4vmax;
+       
+}
+
 
  
 }
@@ -598,10 +651,7 @@ header {
         font-size: 3.7vmax;
     }
 
-    .tituloPrincipal {    
-        margin-top: -3%;
-          
-    }
+    
 
     .btn {
         height: 8vmax;
@@ -695,6 +745,11 @@ header {
         z-index: 10;
         margin-bottom: 5px;
             
+    }
+
+    .completado {
+        font-size: 4vmax;
+      
     }
 
 }
