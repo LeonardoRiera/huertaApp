@@ -372,6 +372,23 @@ header {
         
     }
 
+    /* contenedor de los botones */
+    .btn-container {
+        width: 70vmax;
+        height:10vmax;
+        
+        
+
+
+    }
+
+    .btn {
+        width:20vmax;
+        height: 8vmax;
+        font-size: 1.6vmax;
+        
+    }
+
     
 }
 
@@ -452,6 +469,24 @@ header {
         margin-bottom: 10px;
     }
 
+    /* contenedor de los botones */
+    .btn-container {
+        width: 70vmax;
+        height:12vmax;
+        
+        
+
+
+    }
+
+    .btn {
+        width:18vmax;
+        height: 10vmax;
+        font-size: 2.2vmax;
+        
+    }   
+    
+
 
 }
 
@@ -462,6 +497,71 @@ header {
    text-align: center;
    top: 50%;
   }
+
+  /* contiene todo dentro del body */
+.quiz-container {
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.96);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+    width: 92%;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.575);
+    margin-bottom: 10px;
+    background-image: url(img/reyeno.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;   
+    margin-top: -1%;
+    
+}
+
+.elementosContenedor {
+    margin-top:8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 400px;
+   
+}
+
+
+  /* contenedor de los botones */
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0 10px;
+    width: 45vmax;
+    height:40vmax;
+    
+    
+
+
+}
+
+.btn {
+    background: linear-gradient(to top, rgb(239, 90, 205), rgba(17, 237, 229, 0.877));
+    
+    border: 5px solid rgba(0, 0, 0, 0.212);
+    color: rgb(0, 0, 0);
+    margin: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    width:35vmax;
+    height: 7vmax;
+    font-family: "Bangers", system-ui;
+    font-size: 2.5vmax;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.399);
+    
+  
+}
 
  
 }
@@ -502,6 +602,14 @@ header {
         margin-top: -3%;
           
     }
+
+    .btn {
+        height: 8vmax;
+        
+       
+      
+    }
+    
 
 
 
@@ -553,6 +661,14 @@ header {
         left: -6%;
     }
 
+    .btn {
+        height: 7.2vmax;
+        
+       
+      
+    }
+    
+
 }
 
 /* ++++++++++++++++++++++++ media query  | personalizado |   ++++++++++++++++++++++++++++++++++*/
@@ -603,6 +719,12 @@ header {
         left: -20%;
         
     }
+    .btn {
+        height: 8vmax;
+        
+       
+      
+    }
   
 
 }
@@ -649,7 +771,7 @@ header {
     }
 
     .tituloPrincipal {
-        font-size: 4vmax;
+        font-size: 5vmax;
         text-shadow: 3.5px 3.5px 4px black;
         
 
