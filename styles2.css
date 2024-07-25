@@ -688,6 +688,11 @@ header {
        
     }
 
+    .btn:hover {
+        display: none;
+    }
+    
+
 
     
   
