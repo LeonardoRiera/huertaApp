@@ -689,7 +689,10 @@ header {
     }
 
     .btn:hover {
-        display: none;
+        background: linear-gradient(to top, rgb(239, 90, 205), rgba(17, 237, 229, 0.877));
+        color: black;
+        border: 5px solid rgba(0, 0, 0, 0.212);
+     
     }
     
 
