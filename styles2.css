@@ -243,6 +243,8 @@ header {
     font-family: "Bangers", system-ui;
     font-size: 1.6vmax;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.399);
+    -webkit-tap-highlight-color: transparent; /* Evita el resaltado en dispositivos táctiles */
+    touch-action: manipulation; /* Mejora la respuesta táctil y evita ciertos gestos predeterminados */
    
   
 }

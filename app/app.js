@@ -48,6 +48,7 @@ gsap.to('#parrafo', {
 const correctSound = new Audio('./sounds/correcto.mp3');
 const incorrectSound = new Audio('./sounds/incorrecto.mp3');
 const final = new Audio('./sounds/final.mp3');
+const inicio = new Audio('./sounds/inicio.mp3');
 
 
 // Variable para llevar el seguimiento del índice de la pregunta actual  
@@ -143,6 +144,7 @@ function selectAnswer(event) {
         }
         
     }
+    
 }
 
 // Función para reiniciar el cuestionario
@@ -183,5 +185,8 @@ function reinicio() {
     startQuiz(); // llamamos a la funcion inicial
 }
 
+
 // Iniciar el cuestionario cuando la página se cargue
 window.onload = startQuiz;
+
+
