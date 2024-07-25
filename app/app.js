@@ -45,9 +45,9 @@ gsap.to('#parrafo', {
 
 
 // Definir sonidos correctos e incorrectos
-const correctSound = new Audio('../sounds/correcto.mp3');
-const incorrectSound = new Audio('../sounds/incorrecto.mp3');
-const final = new Audio('../sounds/final.mp3');
+const correctSound = new Audio('./sounds/correcto.mp3');
+const incorrectSound = new Audio('./sounds/incorrecto.mp3');
+const final = new Audio('./sounds/final.mp3');
 
 
 // Variable para llevar el seguimiento del índice de la pregunta actual  
