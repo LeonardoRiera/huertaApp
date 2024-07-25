@@ -44,6 +44,12 @@ gsap.to('#parrafo', {
 /* bloque juego */
 
 
+// Definir sonidos correctos e incorrectos
+const correctSound = new Audio('../sounds/correcto.mp3');
+const incorrectSound = new Audio('../sounds/incorrecto.mp3');
+const final = new Audio('../sounds/final.mp3');
+
+
 // Variable para llevar el seguimiento del índice de la pregunta actual  
 let currentQuestionIndex = 0;
 
@@ -106,10 +112,11 @@ function selectAnswer(event) {
 
         document.getElementById('result').textContent = 'Correcto!!'; //cacha a un div vacio --- |acá podriamos agregar el tomatito|
         score += 100; // Aumentar el puntaje si la respuesta es correcta
-
+        correctSound.play(); // Reproducir sonido correcto
     } else {
 
         document.getElementById('result').textContent = 'Incorrecto!!'; // cacha al mismo div vacio
+        incorrectSound.play(); // Reproducir sonido incorrecto
     }
 
     // Actualizar el puntaje en pantalla
@@ -127,7 +134,7 @@ function selectAnswer(event) {
         document.getElementById('reiniciar').innerHTML = `<button id='alInicio' class='btn2'>Jugar Nuevamente</button>`;
         document.getElementById('alInicio').addEventListener('click', reinicio);
         document.getElementById('result').textContent = '';
-        
+        final.play();
 
         // Asegurarse de que el contenido del primer (y único) elemento con la clase 'preguntas' esté vacío
         const preguntasElement = document.getElementsByClassName('preguntas')[0];
