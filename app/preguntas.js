@@ -57,8 +57,8 @@ const questions = [
     },
     {
         question: "Para fertilizar podemos usar:",
-        correctAnswer: "Azufre agrícola",
-        respuestaIncorrecta1: "Compost",
+        correctAnswer: "Compost",
+        respuestaIncorrecta1: "Azufre agrícola",
         respuestaIncorrecta2: "Mulching",
         
     },
